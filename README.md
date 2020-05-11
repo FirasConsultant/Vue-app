@@ -1,14 +1,13 @@
 # web app using :
 
----
-## Vue.js with Vuetify for Material Design UI,
+### Vue.js with Vuetify for Material Design UI,
 
-## Vuex for state management
+### Vuex for state management
 
-## Nuxt for Vuex
+### Nuxt for Vuex
 
-## JEST  for unit test
+### JEST  for unit test
 
-## VueApollo for making GraphQL queries
+### VueApollo for making GraphQL queries
 
 
