@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import LatestMovie from '@/components/LatestMovie';
 import Movie from '@/components/Movie';
 import SearchMovie from '@/components/SearchMovie';
+import List from '@/views/List.vue';
 
 
 
@@ -35,7 +36,12 @@ Vue.use(VueRouter)
     name: 'SearchMovie',
     props: true,
     component: SearchMovie
-  }
+  },
+  {
+    path: '/list',
+    name: 'List',
+    component: List
+},
 ]
 
 const router = new VueRouter({

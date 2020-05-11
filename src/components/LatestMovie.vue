@@ -15,20 +15,20 @@
     </div>
 
     <v-layout wrap>
-      <v-flex xs3 v-for="(item, index) in wholeResponse" :key="index" mb-2>
+      <v-flex xs3 v-for="(item, index) in wholeResponse" :key="index" mb-4>
         <v-card>
           <v-responsive :aspect-ratio="16/9">
-            <v-img :src="item.Poster" aspect-ratio="2"></v-img>
+            <v-img :src="item.Poster" aspect-ratio="1"></v-img>
             <v-card-title primary-title>
               <div>
-                <h1>{{item.Title}}</h1>
+                <h4>{{item.Title}}</h4>
                 <div>Year: {{item.Year}}</div>
                 <div>Type: {{item.Type}}</div>
                 <div>IMDB-id: {{item.imdbID}}</div>
               </div>
             </v-card-title>
             <v-card-actions class="justify-center">
-              <v-btn color="green" @click="singleMovie(item.imdbID)">View</v-btn>
+              <v-btn text color="green" @click="singleMovie(item.imdbID)">View</v-btn>
             </v-card-actions>
           </v-responsive>
         </v-card>

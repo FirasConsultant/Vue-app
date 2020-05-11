@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
+import VCard from 'vuetify';
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 
 // <--! use of vuex library of state management : used when a state inside a component is shared between others components -->
@@ -17,6 +18,7 @@ export default new Vuetify({
     icons: {
         iconfont: 'mdi',
       },
+      components: VCard
 });
 
 
